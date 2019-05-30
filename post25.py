@@ -21,4 +21,4 @@ def http_post():
     return r.text
 result =http_post()
 print (result)
-# print (json.dumps(value))
+print (json.dumps(value))
